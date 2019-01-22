@@ -1,7 +1,7 @@
-#Google Calendar Integration for services
+# Google Calendar Integration for services
 Most of the times you need to use the Google Calendar API you want to create a service that will handle events in a particular calendar.
 
-##Setup
+## Setup
 To Achieve this goal we need to follow these steps:
 * Create a __service account__ which will give you an email address for your application
   
@@ -15,7 +15,7 @@ To Achieve this goal we need to follow these steps:
 * Authenticate your application using the service account information
 * Use the credentials to call the google calendar API methods
 
-##Code
+## Code
 The code in this repository read, deletes and creates events. To make it work you have to export 2 env variables:
 
 ```
