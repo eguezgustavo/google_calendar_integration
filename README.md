@@ -1,4 +1,4 @@
-#Google Calendar Integration for services
+# Google Calendar Integration for services
 Most of the times you need to use the Google Calendar API you want to create a service that will handle events in a particular calendar.
 
 ## Setup
