@@ -24,11 +24,11 @@ def create_event(calendar, start, end, subject, description):
     event = {
         'summary': subject,
         'start': {
-            'dateTime': start.isoformat() + 'Z',
+            'dateTime': start.isoformat(),
             'timeZone': 'UTC',
         },
         'end': {
-            'dateTime': end.isoformat() + 'Z',
+            'dateTime': end.isoformat(),
             'timeZone': 'UTC',
         },
         'description': description,

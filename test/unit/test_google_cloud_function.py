@@ -82,11 +82,11 @@ class TestCreateEvent:
         expected_event_body = {
             'summary': 'Some Subject',
             'start': {
-                'dateTime': '2019-01-21T20:00:00Z',
+                'dateTime': '2019-01-21T20:00:00',
                 'timeZone': 'UTC',
             },
             'end': {
-                'dateTime': '2019-01-21T20:30:00Z',
+                'dateTime': '2019-01-21T20:30:00',
                 'timeZone': 'UTC',
             },
             'description': 'Some description',
