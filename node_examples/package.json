@@ -1,0 +1,29 @@
+{
+  "name": "google_calendar_integration",
+  "version": "1.0.0",
+  "description": "Reads events from google calendar",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "npm run build && node ./dist/index.js",
+    "test": "./node_modules/.bin/mocha --compilers js:@babel/register --require babel-polyfill",
+    "build": "babel src --out-dir ./dist --source-maps",
+    "serve": "node ./dist/index.js"
+  },
+  "author": "Gustavo Eguez",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.8.0",
+    "googleapis": "^37.1.0",
+    "mocha": "^5.2.0",
+    "regenerator": "^0.13.3",
+    "sinon": "^7.2.3"
+  }
+}
