@@ -2,4 +2,4 @@
 venv/
 node_examples/dist/
 node_examples/node_modules/
-envs-key
+secrets_key
